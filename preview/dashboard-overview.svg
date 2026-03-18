@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Komari Theme Dashboard Overview</title>
+  <desc id="desc">Updated dashboard overview preview reflecting the latest Komari homepage and detail page design.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#dbeafe" />
+    </linearGradient>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <filter id="shadowSm" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,0.06)"/>
+    </filter>
+    <filter id="shadowMd" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="rgba(15,23,42,0.08)"/>
+    </filter>
+    <filter id="shadowLg" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="rgba(15,23,42,0.10)"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="900" fill="url(#bgGradient)" />
+  <circle cx="1220" cy="120" r="280" fill="rgba(37,99,235,0.08)" />
+  <circle cx="220" cy="820" r="220" fill="rgba(59,130,246,0.05)" />
+
+  <rect x="0" y="0" width="1440" height="80" fill="url(#headerGradient)" filter="url(#shadowMd)" />
+  <rect x="48" y="19" width="42" height="42" rx="12" fill="url(#brandGradient)" />
+  <text x="69" y="47" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="900" text-anchor="middle">K</text>
+  <text x="104" y="38" fill="#f8fafc" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="900">Komari Monitor</text>
+  <circle cx="108" cy="54" r="3" fill="#10b981" />
+  <text x="120" y="58" fill="rgba(255,255,255,0.72)" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="800">实时连接中</text>
+  <rect x="1220" y="24" width="100" height="32" rx="8" fill="rgba(59,130,246,0.16)" stroke="rgba(96,165,250,0.32)" stroke-width="1" />
+  <text x="1270" y="45" fill="#60a5fa" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="800" text-anchor="middle">后台设置</text>
+
+  <rect x="48" y="104" width="1344" height="188" rx="24" fill="#ffffff" filter="url(#shadowMd)" />
+
+  <rect x="68" y="124" width="300" height="148" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="88" y="156" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800">受管节点</text>
+  <text x="88" y="206" fill="#0f172a" font-family="Helvetica, Arial, sans-serif" font-size="40" font-weight="900">19</text>
+  <text x="146" y="206" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700">/ 20</text>
+
+  <rect x="388" y="124" width="300" height="148" rx="14" fill="#fff7ed" stroke="#fdba74" stroke-width="1" />
+  <text x="408" y="156" fill="#9a3412" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800">在线节点告警</text>
+  <text x="408" y="206" fill="#f97316" font-family="Helvetica, Arial, sans-serif" font-size="40" font-weight="900">2</text>
+  <text x="456" y="206" fill="#9a3412" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="800">NODES</text>
+  <text x="408" y="238" fill="#9a3412" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700">CPU/内存/磁盘/负载任一告警</text>
+
+  <rect x="708" y="124" width="300" height="148" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="728" y="156" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800">网络流量总览</text>
+  <text x="728" y="184" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700">下载</text>
+  <text x="728" y="214" fill="#0f172a" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="900">↓ 1.24 GB/s</text>
+  <line x1="858" y1="174" x2="858" y2="228" stroke="#e2e8f0" stroke-width="1.2" />
+  <text x="882" y="184" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700">上传</text>
+  <text x="882" y="214" fill="#0f172a" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="900">↑ 0.82 GB/s</text>
+
+  <rect x="1028" y="124" width="300" height="148" rx="14" fill="#fff7ed" stroke="#fdba74" stroke-width="1" />
+  <text x="1048" y="156" fill="#9a3412" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800">系统状态</text>
+  <circle cx="1068" cy="194" r="5" fill="#f59e0b" />
+  <text x="1084" y="198" fill="#9a3412" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="800">系统存在风险</text>
+  <text x="1048" y="236" fill="#9a3412" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700">请检查在线但触发告警的受管节点</text>
+
+  <rect x="48" y="316" width="1344" height="74" rx="18" fill="#ffffff" filter="url(#shadowSm)" />
+  <rect x="68" y="338" width="62" height="30" rx="9" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5" />
+  <text x="99" y="358" fill="#2563eb" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="800" text-anchor="middle">全部</text>
+  <rect x="142" y="338" width="90" height="30" rx="9" fill="transparent" />
+  <text x="187" y="358" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">核心节点</text>
+  <rect x="244" y="338" width="88" height="30" rx="9" fill="transparent" />
+  <text x="288" y="358" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">测试节点</text>
+  <rect x="1186" y="338" width="90" height="30" rx="10" fill="#f1f5f9" />
+  <rect x="1194" y="342" width="38" height="22" rx="7" fill="#ffffff" filter="url(#shadowSm)" />
+  <rect x="1206" y="347" width="14" height="12" rx="2" stroke="#2563eb" stroke-width="1.5" fill="none" />
+  <line x1="1248" y1="347" x2="1262" y2="347" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="1248" y1="353" x2="1262" y2="353" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="1248" y1="359" x2="1262" y2="359" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" />
+  <rect x="1288" y="338" width="84" height="30" rx="9" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5" />
+  <circle cx="1304" cy="353" r="5" stroke="#94a3b8" stroke-width="1.4" fill="none" />
+  <line x1="1308" y1="357" x2="1313" y2="362" stroke="#94a3b8" stroke-width="1.4" stroke-linecap="round" />
+
+  <rect x="48" y="416" width="320" height="212" rx="18" fill="#ffffff" filter="url(#shadowMd)" />
+  <rect x="48" y="416" width="5" height="212" rx="2.5" fill="#10b981" />
+  <text x="72" y="448" fill="#0f172a" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="800">Node-Alpha-01</text>
+  <text x="72" y="468" fill="#94a3b8" font-family="Helvetica, Arial, sans-serif" font-size="12">Primary application server</text>
+  <rect x="72" y="482" width="56" height="20" rx="999" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.28)" stroke-width="1" />
+  <circle cx="80" cy="492" r="3" fill="#10b981" />
+  <text x="88" y="496" fill="#10b981" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="800">在线</text>
+
+  <rect x="72" y="516" width="128" height="58" rx="10" fill="rgba(16,185,129,0.12)" />
+  <text x="84" y="536" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700">CPU</text>
+  <text x="84" y="560" fill="#10b981" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="900">42%</text>
+  <rect x="84" y="564" width="100" height="4" rx="2" fill="rgba(0,0,0,0.06)" />
+  <rect x="84" y="564" width="42" height="4" rx="2" fill="#10b981" />
+
+  <rect x="208" y="516" width="128" height="58" rx="10" fill="rgba(16,185,129,0.12)" />
+  <text x="220" y="536" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700">内存</text>
+  <text x="220" y="560" fill="#10b981" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="900">38%</text>
+  <rect x="220" y="564" width="100" height="4" rx="2" fill="rgba(0,0,0,0.06)" />
+  <rect x="220" y="564" width="38" height="4" rx="2" fill="#10b981" />
+
+  <rect x="72" y="586" width="128" height="34" rx="8" fill="rgba(245,158,11,0.10)" stroke="rgba(245,158,11,0.18)" stroke-width="1" />
+  <text x="84" y="600" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="8" font-weight="700">磁盘</text>
+  <text x="84" y="614" fill="#f59e0b" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="900">72%</text>
+
+  <rect x="208" y="586" width="128" height="34" rx="8" fill="rgba(37,99,235,0.10)" stroke="rgba(37,99,235,0.18)" stroke-width="1" />
+  <text x="220" y="600" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="8" font-weight="700">系统负载</text>
+  <text x="220" y="614" fill="#2563eb" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="900">31%</text>
+
+  <rect x="392" y="416" width="320" height="212" rx="18" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6 5" filter="url(#shadowSm)" />
+  <rect x="392" y="416" width="5" height="212" rx="2.5" fill="#94a3b8" />
+  <text x="416" y="448" fill="#475569" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="800">Node-Beta-02</text>
+  <text x="416" y="468" fill="#94a3b8" font-family="Helvetica, Arial, sans-serif" font-size="12">Database cluster node</text>
+  <rect x="416" y="482" width="56" height="20" rx="999" fill="rgba(148,163,184,0.18)" stroke="rgba(148,163,184,0.30)" stroke-width="1" />
+  <circle cx="424" cy="492" r="3" fill="#94a3b8" />
+  <text x="432" y="496" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="800">离线</text>
+
+  <rect x="416" y="516" width="128" height="58" rx="10" fill="#e2e8f0" opacity="0.95" />
+  <text x="428" y="536" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700">CPU</text>
+  <text x="428" y="560" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="900">--</text>
+
+  <rect x="552" y="516" width="128" height="58" rx="10" fill="#e2e8f0" opacity="0.95" />
+  <text x="564" y="536" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700">内存</text>
+  <text x="564" y="560" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="900">--</text>
+
+  <rect x="416" y="586" width="128" height="34" rx="8" fill="#e2e8f0" opacity="0.95" />
+  <text x="428" y="600" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="8" font-weight="700">磁盘</text>
+  <text x="428" y="614" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="900">--</text>
+
+  <rect x="552" y="586" width="128" height="34" rx="8" fill="#e2e8f0" opacity="0.95" />
+  <text x="564" y="600" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="8" font-weight="700">系统负载</text>
+  <text x="564" y="614" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="900">--</text>
+
+  <rect x="736" y="416" width="656" height="420" rx="22" fill="#ffffff" filter="url(#shadowLg)" />
+  <rect x="736" y="416" width="656" height="72" rx="22" fill="url(#headerGradient)" />
+  <text x="764" y="448" fill="#f8fafc" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="800">Node-Alpha-01</text>
+  <text x="764" y="468" fill="rgba(255,255,255,0.72)" font-family="Helvetica, Arial, sans-serif" font-size="11">Primary application server</text>
+  <rect x="1088" y="434" width="198" height="34" rx="10" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.16)" stroke-width="1" />
+  <rect x="1094" y="438" width="92" height="26" rx="8" fill="#ffffff" />
+  <text x="1140" y="455" fill="#2563eb" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800" text-anchor="middle">延迟监控</text>
+  <text x="1238" y="455" fill="rgba(255,255,255,0.7)" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800" text-anchor="middle">负载参数</text>
+
+  <text x="764" y="528" fill="#0f172a" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="800">延迟监控</text>
+  <rect x="764" y="548" width="596" height="232" rx="16" fill="#f8fafc" stroke="#dbeafe" stroke-width="1" />
+  <line x1="796" y1="744" x2="1330" y2="744" stroke="rgba(37,99,235,0.05)" stroke-width="1" stroke-dasharray="4 8" />
+  <line x1="796" y1="688" x2="1330" y2="688" stroke="rgba(37,99,235,0.05)" stroke-width="1" stroke-dasharray="4 8" />
+  <line x1="796" y1="632" x2="1330" y2="632" stroke="rgba(37,99,235,0.05)" stroke-width="1" stroke-dasharray="4 8" />
+  <polyline fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+    points="796,714 838,692 880,702 922,664 964,676 1006,650 1048,668 1090,640 1132,654 1174,626 1216,638 1258,616 1300,624 1330,610" />
+  <path d="M796,714 L838,692 L880,702 L922,664 L964,676 L1006,650 L1048,668 L1090,640 L1132,654 L1174,626 L1216,638 L1258,616 L1300,624 L1330,610 L1330,764 L796,764 Z"
+    fill="#2563eb" opacity="0.10" />
+  <circle cx="1174" cy="626" r="4" fill="#ffffff" stroke="#2563eb" stroke-width="2" />
+  <rect x="1118" y="566" width="156" height="48" rx="12" fill="#0f172a" opacity="0.95" />
+  <text x="1132" y="586" fill="#93c5fd" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700">时间范围 14:00 - 14:15</text>
+  <text x="1132" y="603" fill="#f8fafc" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="800">AVG 45 ms / MIN 30 / MAX 60</text>
+
+  <rect x="1212" y="516" width="148" height="24" rx="8" fill="#f1f5f9" stroke="#dbeafe" stroke-width="1" />
+  <rect x="1218" y="520" width="30" height="16" rx="6" fill="#ffffff" />
+  <text x="1233" y="531" fill="#2563eb" font-family="Helvetica, Arial, sans-serif" font-size="8" font-weight="800" text-anchor="middle">1h</text>
+  <text x="1262" y="531" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="8" font-weight="700" text-anchor="middle">6h</text>
+  <text x="1290" y="531" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="8" font-weight="700" text-anchor="middle">24h</text>
+  <text x="1324" y="531" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="8" font-weight="700" text-anchor="middle">7d</text>
+
+  <text x="1064" y="860" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="500" text-anchor="middle">Powered by Komari Monitor.</text>
+</svg>

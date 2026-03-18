@@ -1,0 +1,97 @@
+{
+  "name": "Komari Theme",
+  "short": "KomariTheme",
+  "description": "Responsive React and Vite dashboard theme for Komari Monitor.",
+  "version": "1.0.0",
+  "author": "Komari Theme Contributors",
+  "preview": "preview/thumbnail.svg",
+  "configuration": {
+    "type": "managed",
+    "name": "Komari Theme Settings",
+    "data": [
+      {
+        "name": "基础信息",
+        "type": "title"
+      },
+      {
+        "key": "title",
+        "name": "站点标题",
+        "type": "string",
+        "default": "Komari Monitor",
+        "help": "显示在主题页头。"
+      },
+      {
+        "key": "subtitle",
+        "name": "站点副标题",
+        "type": "string",
+        "default": "Observability overview",
+        "help": "显示在标题下方。"
+      },
+      {
+        "key": "accentColor",
+        "name": "强调色",
+        "type": "string",
+        "default": "#0f766e",
+        "help": "请输入十六进制颜色值，例如 #0f766e。"
+      },
+      {
+        "name": "展示行为",
+        "type": "title"
+      },
+      {
+        "key": "defaultGroup",
+        "name": "默认分组",
+        "type": "string",
+        "default": "",
+        "help": "留空表示首次进入时显示全部分组。"
+      },
+      {
+        "key": "defaultViewMode",
+        "name": "默认视图",
+        "type": "select",
+        "options": "grid,table",
+        "default": "grid",
+        "help": "选择节点列表首次渲染时的展示模式。"
+      },
+      {
+        "key": "showOfflineNodes",
+        "name": "显示离线节点",
+        "type": "switch",
+        "default": true,
+        "help": "关闭后仅展示在线节点。"
+      },
+      {
+        "name": "数据刷新",
+        "type": "title"
+      },
+      {
+        "key": "loadHours",
+        "name": "负载历史小时数",
+        "type": "number",
+        "default": 24,
+        "help": "建议范围 1-720。"
+      },
+      {
+        "key": "pingHours",
+        "name": "Ping 历史小时数",
+        "type": "number",
+        "default": 6,
+        "help": "建议范围 1-168。"
+      },
+      {
+        "key": "refreshIntervalMs",
+        "name": "刷新间隔（毫秒）",
+        "type": "number",
+        "default": 5000,
+        "help": "主题轮询与重取详情时使用的毫秒间隔。"
+      },
+      {
+        "key": "footerText",
+        "name": "页脚文本",
+        "type": "string",
+        "default": "Powered by Komari Monitor.",
+        "help": "默认保留 Komari 要求的页脚文案。"
+      }
+    ]
+  }
+}
